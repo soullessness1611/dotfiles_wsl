@@ -1,0 +1,5 @@
+require('plugins')
+require('themes')
+require('settings')
+require('base')
+require('keymaps')
