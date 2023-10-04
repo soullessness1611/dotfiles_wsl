@@ -13,7 +13,7 @@ null_ls.setup({
         null_ls.builtins.formatting.prettier,
         null_ls.builtins.formatting.isort,
         --Code action refatoring
-        -- null_ls.builtins.code_actions.refatoring,
+        null_ls.builtins.code_actions.refatoring,
         --Diagnostics
         null_ls.builtins.diagnostics.mypy,
         null_ls.builtins.diagnostics.ruff
