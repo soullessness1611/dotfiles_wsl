@@ -183,7 +183,7 @@ packer.startup(function(use)
     use {
         'linrongbin16/lsp-progress.nvim',
         event = { 'VimEnter' },
-        dependencies = {
+        requires = {
             'nvim-tree/nvim-web-devicons'
         },
         config = function()

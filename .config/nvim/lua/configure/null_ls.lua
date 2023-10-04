@@ -15,7 +15,7 @@ null_ls.setup({
         --Code action refatoring
         -- null_ls.builtins.code_actions.refatoring,
         --Diagnostics
-        --null_ls.builtins.diagnostics.mypy,
-        --null_ls.builtins.diagnostics.ruff
+        null_ls.builtins.diagnostics.mypy,
+        null_ls.builtins.diagnostics.ruff
     }
 })
