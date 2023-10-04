@@ -115,3 +115,4 @@ source $(dirname $(gem which colors))/tab_complete.sh
 
 alias ls=colorls
 alias lls='ls -larth'
+alias cls='clear'
