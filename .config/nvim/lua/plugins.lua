@@ -242,4 +242,17 @@ packer.startup(function(use)
 --        'SirVer/ultisnips',
 --        'quangnguyen30192/cmp-nvim-ultisnips'
 --    }
+--
+    -- UI Popup and Notify Popup including command Popup
+    use {
+        'folke/noice.nvim',
+        -- event = 'VimEnter',
+        requires = {
+            'MunifTanjim/nui.nvim',
+            -- Optional:
+                -- `nvim-notify` is only needed if you want to use the notification view.
+                -- If not available, we use `mini` as the fallback
+            'rcarriga/nvim-notify',
+        }
+    }
 end)
